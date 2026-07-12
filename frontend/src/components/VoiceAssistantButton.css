@@ -1,0 +1,51 @@
+.voice-assistant-btn {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  z-index: 900;
+  background: linear-gradient(135deg, #20c766, #15a4ff);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.22);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 18px 45px rgba(32, 199, 102, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.voice-assistant-btn.open {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 60px rgba(21, 164, 255, 0.34);
+}
+.voice-assistant-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+}
+.voice-btn-ring {
+  position: absolute;
+  inset: -7px;
+  border: 1px solid rgba(34, 197, 94, 0.45);
+  border-radius: 999px;
+  animation: voiceButtonPulse 1.9s ease-out infinite;
+}
+.mic-icon {
+  position: relative;
+  font-size: 28px;
+  line-height: 1;
+}
+
+@keyframes voiceButtonPulse {
+  0% { transform: scale(0.92); opacity: 0.8; }
+  80%, 100% { transform: scale(1.24); opacity: 0; }
+}
+
+@media (max-width: 720px) {
+  .voice-assistant-btn {
+    width: 60px;
+    height: 60px;
+    right: 18px;
+    bottom: 18px;
+  }
+}

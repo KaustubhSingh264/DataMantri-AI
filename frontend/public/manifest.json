@@ -1,0 +1,9 @@
+{
+  "short_name": "Data Mantri",
+  "name": "Data Mantri Analytics",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#16a34a",
+  "background_color": "#f8fafc"
+}

@@ -1,0 +1,48 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Testing
+.pytest_cache/
+
+# Documentation generated during development
+I18N_*.md
+IMPLEMENTATION_*.md
+SUBSCRIPTION_DB_SETUP.md
+API_SUBSCRIPTION_DOCS.md
+test_ssl.py
+
+# Generated datasets
+backend/data/cleaned_*.csv
+backend/data/output.csv
+
+# Notebook
+backend/pandas.ipynb
+
+backend/data/*.csv
+
+DEVELOPER_HANDBOOK_PHASE_3.md
+PHASE_4_INTERVIEW_DEFENSE_GUIDE.md
+PHASE_5_DEPLOYMENT_PRODUCTION_GUIDE.md
