@@ -705,17 +705,9 @@ DataMantri/
 └── LICENSE
 ```
 
----
 
-# 🚀 Getting Started
 
-## Clone Repository
 
-```bash
-git clone https://github.com/yourusername/DataMantri.git
-
-cd DataMantri
-```
 
 ---
 
@@ -856,7 +848,6 @@ Future production deployment supports
 
 # 📸 Screenshots
 
-> Add screenshots here after deployment.
 
 ## Dashboard
 
